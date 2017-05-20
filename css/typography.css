@@ -1,0 +1,46 @@
+a{
+	text-decoration: none;
+	margin-bottom:20px;
+	color: #ffd370;
+}
+
+a:hover{
+    font-size: 11pt;
+    text-decoration: none;
+	color: #ffd370;
+	transition:0.5s;
+}
+
+.active{
+	font-size:11pt;
+}
+
+h1{
+	font-family: "Savoye LET";
+	font-size: 60pt; 
+	margin:0;
+	margin-bottom: 20px;
+	margin-left: 113px;
+	margin-top: 60px;
+}
+
+h4{
+	color: #ffd370;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+h5{
+	margin-left: 330px;
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-right: 0;
+}
+
+p{
+	font-family:"arial";
+	font-size: 14px;
+ 	margin-left: 330px;
+	width: 700px;
+}

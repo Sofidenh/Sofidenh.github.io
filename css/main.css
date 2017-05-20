@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main{
+display:block;
+width: 88.2%;
+float:right;
+overflow: hidden;
+}
+
+main a{
+	text-align: right;
+	width: 800px;
+	margin-top:40px;
+	color: black;
+	
+}
+
+.team{
+	margin-left: 330px;
+	width: 55%;
+	margin-bottom: 50px;
+}
+
+.kl-overons{
+	background-color: #ffd370;
+	padding: 20px 0px 70px;
+}
+
+
+.overons{
+	padding: 20px 0px 70px;
+}
+
+
+.klcontactgegevens{
+	background-color: #ffd370;
+	width: 52%;
+	float: left;
+}
+
+.klcontactgegevens p{
+	margin-left: 270px;
+	margin-right: 20px;
+}
+.contactgegevens{
+	width: 48%;
+	float: left;
+
+}
+
+.contactgegevens img{
+	margin-left: 133px;
+	margin-top: 40px;
+	width: 450px;
+}
+
+.contactgegevens p{
+	margin-bottom: 30px;
+	margin-left: 340px;
+}
+
+
+	/* Footer */
+
+footer{
+	margin-left: 133px;
+}
+footer p{
+	margin:0;
+	margin-bottom: 5px;
+	color: #ffffff;
+}
+
+
+.footer{
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 270px;
+}
+
+.footer-navigatie{
+	float: left;
+	margin-right: 10px;
+	width: 80px;
+}
+
+
+.container-dromen{
+	position: relative;
+	width: 100%;
+	margin: 10px 0px;
+	height:97px;
+	overflow:hidden;
+}
+
+.container-footer{
+	background: #785a99;
+	width: 100%;
+	float: left;
+}
+
+.linkdromen{
+	float: left;
+	width: 100%;
+	position:absolute;
+	overflow:hidden;
+}
+
+.linkdromen img{
+	width: 100%;
+	opacity: 0.3;
+}
+
+.linkdromentekst a{
+	position: absolute;
+	margin-left: 133px;
+	margin-top: 35px;
+	font-size: 20px;
+	text-align: center;
+	width: 1000px;
+	font-family: Arial;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+/* Formulier */
+form{
+	border: 0;
+	position: relative;
+	margin-top: 20px;
+	float: left;
+}
+
+.form{
+	width: 230px;
+	margin-top: 5px;
+	border-bottom: 2px solid;
+	margin-left: 50px;
+	padding-bottom: 10px;
+	background-color: #ffd370;
+
+}
+
+.formachternaam{
+	width: 280px;
+	margin-top: 5px;
+	border-bottom:2px solid;
+	margin-left: 40px;
+
+	padding-bottom: 10px;
+	background-color: #ffd370;
+}
+
+.formlang{
+	width: 550px;
+	margin-top: 5px;
+	border-bottom:2px solid;
+	margin-left: 50px;
+	padding-bottom: 10px;
+	background-color: #ffd370;
+	
+}
+
+.formvnan{
+	float: left;
+}
+
+textarea:active{
+	border-bottom-color: #785a99;
+}
+input{
+	border: 0;
+	padding-left: 5px;
+}
+
+input:focus{
+	outline:none;
+	border-bottom-color: #785a99;
+}
+
+input::placeholder{
+	color:black;
+}
+
+textarea::placeholder{
+	color:black;
+}
+
+fieldset{
+	margin: 0;
+	padding:10px 0px;
+	border: 0;
+	display: block;	
+}
+
+textarea{
+	border: 0px;
+	width: 550px;
+}
+
+textarea:focus{
+	outline:none;
+}
+
+
+.button{
+	border: 2px solid;
+	padding: 10px 40px;
+	margin-left: 440px;
+	color: black;
+	font-family:"arial";
+	font-size: 11pt;
+	background-color: #ffd370;
+	margin-bottom: 30px;
+}
+
+.button:hover{
+	background-color: #785a99;
+	color: white;
+	border: 2px solid #785a99;
+	font-family:"arial";
+	font-size: 11pt;
+	transition:0.5s;
+}
+
+.parkeren p{
+	float: left;
+	width: 400px
+}
+.parking{
+	float: left;
+	width: 400px;
+	margin-top: 150px;
+	margin-left: 40px;
+}
+
+.container-parkerentekst{
+	float: left;
+}
+/* Copyright */
+.copyright{
+	float: left;
+	border-top: 2px solid #ffd370;
+	width: 100%;
+}
+.copyright p{
+	text-align: right;
+	margin-right: 150px;
+	color: #ffffff;
+	font-size: 10px;
+}
