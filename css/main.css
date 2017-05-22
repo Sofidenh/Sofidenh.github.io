@@ -31,6 +31,7 @@ main a{
 .imghome{
 	width: 100%;
 	height: 100%;
+	margin-bottom: -6px;
 }
 
 
@@ -345,12 +346,15 @@ textarea:focus{
 	float: left;
 	border-top: 2px solid #ffd370;
 	width: 100%;
+	
 }
+
 .copyright p{
 	text-align: left;
 	color: #ffffff;
 	font-size: 10px;
 	margin: 10px 0px;
+	margin-left: 20px;
 }
 
 /* Portfolio */
