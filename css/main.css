@@ -551,7 +551,7 @@ textarea:focus{
 #slide8:target ~ #masker .commands8
 
 								{ display: block;
-									width: 100%;}
+									width: 50%;}
 .slideshowportfolio{
 	margin-bottom: 20px;
 }
