@@ -140,6 +140,7 @@ main a{
 footer{
 	margin-left: 133px;
 }
+
 footer p{
 	margin:0;
 	margin-bottom: 5px;
@@ -151,17 +152,38 @@ footer p{
 	float: left;
 	margin-bottom: 50px;
 	margin-top: 50px;
-	width: 270px;
+	width: 310px;
 }
 
-.footer-navigatie{
-	float: left;
-}
-
-.footer-navigatie p{
+.footer a{
 	width: 90px;
 	margin-right: 0;
+	color: white;
+	font-size: 14px;
 }
+
+.footer a:hover{
+	width: 90px;
+	margin-right: 0;
+	color: white;
+	font-size: 14px;
+}
+
+.footer img{
+	width: 12px;
+	margin-right: 5px;
+}
+.footer-navigatie{
+	float: left;
+	margin-right: 20px;
+}
+
+.footer-navigatie a{
+	width: 90px;
+	margin-right: 0;
+	color: white;
+}
+
 .container-footer{
 	background: #785a99;
 	width: 100%;
@@ -191,7 +213,7 @@ footer p{
 }
 
 .dromenwaarmaken:hover{
-	font-size: 25px;
+	font-size: 20px;
     text-decoration: none;
 	color: #000000;
 	transition:0;
@@ -393,19 +415,18 @@ textarea:focus{
 
 /* Fotografie.html */
 #masker {
-	overflow:hidden;
 	position:relative;
 	width: 100%;
 	margin: 0;
 }
 
 #masker figure {
-	width: 400%;
+	width: 800%; /*!!aanpassen*/
 	position:relative;
 }
 
 #masker figure span{
-	width:25%;
+	width:12.5%;
 	float:left;
 	position:relative;
 }
@@ -414,6 +435,7 @@ textarea:focus{
 	width: 100%;
 	float: left;
 	display: block;
+	margin-top: 0;
 }
 
 
@@ -436,13 +458,36 @@ textarea:focus{
 #slide4:target ~ #masker figure							
 								{ margin-left:-300%;}
 
+#slide5:target ~ #masker figure							
+								{ margin-left:-400%;}
+
+#slide6:target ~ #masker figure							
+								{ margin-left:-500%;}
+
+#slide7:target ~ #masker figure							
+								{ margin-left:-600%;}
+
+#slide8:target ~ #masker figure							
+								{ margin-left:-700%;}
+
 
 #masker figure span h1{
 	position:absolute;
 		margin-top:52px;
-		color:#FFFFFF;
+		color: #ffd370;
+		color: #785a99;
+		color: white;
 	
 }
+
+#masker figure span .ontwerpen{
+	color: #785a99;
+}
+
+#masker figure span .tekeningen{
+	color: #785a99;
+}
+
 #masker a.commands {
 	position: absolute;
 	top: 50%;
@@ -468,20 +513,24 @@ textarea:focus{
 .prev{
 	width: 40px;
 	float: left;
+	margin-top: 200px;
 }
 
 .next{
 	width: 40px;
+	margin-top: 200px;
 	
 }
-
-
 
 
 #slide1:target ~ #masker .commands, 
 #slide2:target ~ #masker .commands, 
 #slide3:target ~ #masker .commands, 
-#slide4:target ~ #masker .commands
+#slide4:target ~ #masker .commands,
+#slide5:target ~ #masker .commands,
+#slide6:target ~ #masker .commands,
+#slide7:target ~ #masker .commands,
+#slide8:target ~ #masker .commands
 
 								{ display: none; 
 									width: 100%;
@@ -490,7 +539,11 @@ textarea:focus{
 #slide1:target ~ #masker .commands1, 
 #slide2:target ~ #masker .commands2, 
 #slide3:target ~ #masker .commands3, 
-#slide4:target ~ #masker .commands4
+#slide4:target ~ #masker .commands4,
+#slide5:target ~ #masker .commands5, 
+#slide6:target ~ #masker .commands6, 
+#slide7:target ~ #masker .commands7, 
+#slide8:target ~ #masker .commands8
 
 								{ display: block;
 									width: 100%;}
@@ -500,11 +553,13 @@ textarea:focus{
 
 
 
+
 .afbeelding_container {
 position: relative;
 width: 82%;
 	margin-left: 9%;
 	margin-right: 9%;
+	margin-bottom: 80px;
 	
 }
 

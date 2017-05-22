@@ -27,14 +27,14 @@ h1{
 
 h2{
 	position: absolute;
-	margin-top: -44px;
+	margin-top: -49px;
 	font-weight: 300;
 	text-align: center;
 	width: 250px;
 	font-family: "Arial";
 	font-size: 33px;
-	color: #785a99;
-	color: #000000;
+	color: white;
+	border: 1px solid white;
 	padding: 5px;
 	 background: rgba(190,190,190,0.6);
 }
