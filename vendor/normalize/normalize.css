@@ -35,10 +35,6 @@ main { /* 1 */
   display: block;
 }
 
-figure {
-  margin: 1em 40px;
-}
-
 
 hr {
   box-sizing: content-box; /* 1 */

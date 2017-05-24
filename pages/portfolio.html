@@ -44,14 +44,13 @@
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
     <!-- Stylesheets: App -->
-    <link rel="stylesheet" media="all" href="css/fonts.css">
-    <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/main.css">
-    <link rel="stylesheet" media="all" href="css/nav.css">
+    <link rel="stylesheet" media="all" href="../css/fonts.css">
+    <link rel="stylesheet" media="all" href="../css/typography.css">
+    <link rel="stylesheet" media="all" href="../css/main.css">
+    <link rel="stylesheet" media="all" href="../css/nav.css">
     
     <!-- Lettertype -->
- <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-   
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
    
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
@@ -62,107 +61,48 @@
 
 <nav> 
 	<ul>
-  <a href="index.html"><img src="assets/images/logo.png" alt="Logo van Luova" height="150"></a>
-  <li><a href="overons.html">Over ons</a></li>
+  <a href="../index.html"><img src="../assets/images/logo.png" alt="Logo van Luova" height="150"></a>
+  <li><a href="../pages/overons.html">Over ons</a></li>
   <hr>
-  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a  class="active"  href="../pages/portfolio.html">Portfolio</a></li>
   <hr>
-  <li><a class="active"  href="contact.html">Contact</a></li>
+  <li><a href="../pages/contact.html">Contact</a></li>
   <hr>
 	</ul>
 </nav> 
+<main>
 
-<div><main>
-		
-		<div class="contactgegevens">
-			<h1> Contactgegevens </h1>
-			<p> Koning Boudewijnstraat 20<br>
-			9000 Gent</p>
-	
-			<p>+32 (0)93 45 54 63</p>
-	
-			<p>sofie@luova.be <br>
-			yarno@luova.be <br>
-			laure@luova.be</p>
-
-			<img src="assets/images/werkplaats.png" alt="Ideeën en dromen waar maken? Klik hier!">
-	</div>
-	
-	<div class="klcontactgegevens">
-			<h1> Offerte </h1>
-			<p> Wil je een offerte aanvragen of heb je vragen? <br> Twijfel niet om ons te contacteren.</p>
-		
-			
-				
-						
-	<div> 
-	<div class="formvnan">
-	<fieldset> 
-	<form>
-	<input class="form" type="voornaam" placeholder="Voornaam*"></form>
-</fieldset></div>
-
-<div>
-	<fieldset> 
-	<form>
-	<input class="formachternaam" type="Achternaam" placeholder="Achternaam*"></form>
-</fieldset></div>
+<h1> Portfolio </h1>
+<div class="container-portfolio">
+   <div class="content">
+        <a href="../pages/fotografie.html">
+         <div class="content-overlay"> </div> 
+            <img class="content-image" src="../assets/images/Fotografie.png">
+                <div class="content-details"><h3>Bekijk meer</h3></div>
+                <h2> Fotografie </h2></a>
 </div>
 
-<div>
-	<fieldset> 
-	<form>
-	<input  class="formlang" type="e-mail" placeholder="E-mail adres*"></form>
-</fieldset></div>
-
-<div>
-	<fieldset> 
-	<form>
-	<input  class="formlang" type="Telefoon nummer" placeholder="Telefoon nummer*"></form>
-</fieldset></div>
-
-<div>
-	<fieldset> 
-	<form>
-	<input class="formlang" type="Bedrijf" placeholder="Bedrijf*"></form>
-</fieldset></div>
-
-<div>
-	<fieldset> 
-	<form>
-	<textarea class="formlang" placeholder="Bericht*" rows="7" name="Bericht"></textarea></form>
-</fieldset></div>
-
-<form><input class="button" type="submit" value="Verzenden"></form>
-	
+   <div class="content">
+        <a href="../pages/ontwerpen.html">
+         <div class="content-overlay"> </div> 
+            <img class="content-image" src="../assets/images/Ontwerpen.png">
+                <div class="content-details"><h3>Bekijk meer</h3></div>
+               <h2> Ontwerpen </h2></a>
 </div>
-
-<div class="parkeren">
-<div class="container-parkerentekst">
-<h1> Parkeren </h1>
-	<h5> Openbaar vervoer:</h5>
-	<p>Luova is vlak naast het sint-pietersstation gelegen dus heel gemakkelijk bereikbaar met het openbaar vervoer.</p>
-<br>
-	<h5>Auto:</h5>
-	<p>Er is een parking voorzien aan de achterkant van het gebouw voor klanten.</p>
-<br>
-	<h5>Fiets:</h5>
-	<p>Er is een stevig fietsenrek voorzien aan de achterkant van het gebouw voor uw fiets veilig aan vast te maken.</p>
+  
+   <div class="content">
+        <a href="../pages/tekeningen.html">
+         <div class="content-overlay"> </div> 
+            <img class="content-image" src="../assets/images/Tekening.png">
+                <div class="content-details"><h3>Bekijk meer</h3></div>
+                <h2> Tekeningen </h2></a>
 </div>
-	
-<img class="parking" alt="parking" src="assets/images/parking.png">
-	
 </div>
-
-<div id="map">	
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN0fJWkaKX6bHcWDNhXUKzlUT9obidJOE&callback=myMap"></script></div>
-
-
 
 <div class="container-dromen">
-	<img src="assets/images/meme.jpg" alt="Ideeën en dromen waar maken? Klik hier!">
+	<img src="../assets/images/meme.jpg" alt="Ideeën en dromen waar maken? Klik hier!">
 	
-	<a class="dromenwaarmaken" href="contact.html"> Ideeën en dromen waar maken? <strong> Klik hier!</strong></a>
+	<a class="dromenwaarmaken" href="../pages/contact.html"> Ideeën en dromen waar maken? <strong> Klik hier!</strong></a>
 </div>
 
 
@@ -177,13 +117,13 @@
 	
 	<div class="footer">
 	<h4> Volg ons op</h4>
-	<img src="assets/images/logofacebook.png">
+	<img src="../assets/images/logofacebook.png">
 	<a href="https://www.facebook.com/" target="_blank"> facebook </a><br>
-	<img src="assets/images/logoinstagram.png" >
+	<img src="../assets/images/logoinstagram.png" >
 	<a href="https://www.instagram.com/" target="_blank"> Instagram </a><br>
-	<img src="assets/images/logotwitter.png">
+	<img src="../assets/images/logotwitter.png">
 	<a href="https://twitter.com/" target="_blank"> Twitter </a><br>
-	<img src="assets/images/logolinkedin.png">
+	<img src="../assets/images/logolinkedin.png">
 	<a href="https://www.linkedin.com/" target="_blank"> linkedIn </a>
 	
 	</div>
@@ -191,24 +131,24 @@
 <div class="footer">
 	<div class="footer-navigatie">
 	<h4> Over ons</h4>
-	<a href="overons.html">Het team</a><br>
-	<a href="overons.html">Over ons</a><br>
-	<a href="overons.html">Diensten</a><br>
-	<a href="overons.html">Jobs</a>
+	<a href="../pages/overons.html">Het team</a><br>
+	<a href="../pages/overons.html#overons">Over ons</a><br>
+	<a href="../pages/overons.html#diensten">Diensten</a><br>
+	<a href="../pages/overons.html#jobs">Jobs</a>
 	</div>
 	
 	<div class="footer-navigatie">
 	<h4> Portfolio </h4>
-	<a href="fotografie.html">Fotografie</a><br>
-	<a href="ontwerpen.html">Ontwerpen</a><br>
-	<a href="tekeningen.html">Tekenigen</a><br>
+	<a href="../pages/fotografie.html">Fotografie</a><br>
+	<a href="../pages/ontwerpen.html#ontwerpen">Ontwerpen</a><br>
+	<a href="../pages/tekeningen.html#tekeningen">Tekeningen</a><br>
 	</div>
 	
 	<div class="footer-navigatie">
 		<h4> Contact</h4>
-		<a href="contact.html">Contactgegevens</a><br>
-		<a href="contact.html">Offerte</a><br>
-		<a href="contact.html">Parkeren</a><br>
+		<a href="../pages/contact.html">Contactgegevens</a><br>
+		<a href="../pages/contact.html#offerte">Offerte</a><br>
+		<a href="../pages/contact.html#parkeren">Parkeren</a><br>
 	</div>
 	</div>
 </footer>
@@ -216,8 +156,6 @@
 <div class="copyright">
 	 <p>Copyright &#169; 2017 Sofie Den Haeze</p>
 </div></div>
-
-
-</main></div>
+</main>
 </body>
 </html>

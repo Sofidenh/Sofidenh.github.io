@@ -33,3 +33,7 @@ hr{
     border-top:2px solid #ffd370;
 	margin-top: -10px;
 }
+
+nav ul a img{
+	width: 100%;
+}
