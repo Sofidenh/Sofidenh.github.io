@@ -472,6 +472,7 @@ textarea:focus{
 	font-size: 11pt;
 	background-color: #ffd370;
 	margin-bottom: 30px;
+	width: 153px;
 }
 
 .button:hover{
