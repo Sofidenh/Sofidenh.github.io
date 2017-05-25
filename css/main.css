@@ -434,10 +434,14 @@ input:focus{
 input::placeholder{
 	color:black;
 	font-size: 14px;
+	font-family: "Arial";
+
 }
 
 textarea::placeholder{
 	color:black;
+	font-size: 14px;
+	font-family: "Arial";
 }
 
 fieldset{
